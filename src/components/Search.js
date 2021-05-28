@@ -48,22 +48,6 @@ const Search = ({result, setResult}) => {
   }, [fetching])
 
   const handleClick = (e) => {
-    // bring in SW API here?
-    // https://swapi.dev/api/ + category + id
-    // when form is submitted, through onClick ...
-      // fetch from API and search for corresponding category AND id
-        // after fetch, display the right info & change path to match the search items
-
-    // useEffect(() => {
-      // axios.get(`https://swapi.dev/api/${category}/${searchID}`)
-      // .then(response => setResult(response.data))
-      // // .then(console.log)
-      // // .catch(err => setErroror("These aren't the droids you're looking for!")
-
-
-      // console.log('Done fetching!')
-      // navigate(`/${category}/${searchID}`);
-    // }, []);
     setFetching(true)
   }
   console.log('Result', result)

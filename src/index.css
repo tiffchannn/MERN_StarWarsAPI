@@ -15,10 +15,18 @@ code {
 header{
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .star-wars-img{
   height: 175px;
   width: 300px;
 }
+
+.search-results{
+  margin: 50px;
+  word-break: break-word;
+}
+
+

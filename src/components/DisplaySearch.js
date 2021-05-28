@@ -11,10 +11,10 @@ const DisplaySearch = ({result}) => {
   return (
     <>
       {/* <Search /> */}
-      <div>
+      <div className="search-results">
         {
           Object.keys(result).map((key, i) => (
-            <p key={i}>
+            <p key={i} className="result">
               <span className="name">{key} </span>: {result[key]}
             </p>
           ))
@@ -32,10 +32,6 @@ const DisplaySearch = ({result}) => {
 };
 
 export default DisplaySearch;
-
-// {result.map((item, i) => (
-//   <p className="name" key={i}> {item.name}</p>
-// ))}
 
 // For displaying all results from the API Call
 {/* {resultTitleArr}
